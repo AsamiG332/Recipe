@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Book Club</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a href="/" class="logo">TechBookClub</a>
+        <nav class="main-nav">
+          <a href="/books">Books</a>
+          <a href="/reviews">Reviews</a>
+          <a href="/community">Community</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Learn from the best tech books</h1>
+          <p>
+            Curated collection of must-read technical books with community
+            reviews
+          </p>
+        </div>
+      </section>
+
+      <section class="book-filters">
+        <div class="filter-group">
+          <label>Categories:</label>
+          <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="programming">Programming</option>
+            <option value="design">Design</option>
+            <option value="data-science">Data Science</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="book-grid">
+        <!-- Book cards will be inserted here by JavaScript -->
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <!-- Footer content -->
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
